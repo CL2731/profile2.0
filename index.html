@@ -1,74 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css'>
-    <link rel="stylesheet" href="./asset/css/style.css"/>
+    <link rel="stylesheet" href="./asset/css/style.css" />
     <title>Profile</title>
 </head>
+
 <body>
     <header>
-        <div>
-            <h1> Welcome to a site about me!</h1>
+        <div class="hero is-link">
+            <h1 class="title has-text-centered m-5"> Welcome to a site about me!</h1>
         </div>
 
-        <div class="navbar-item has-dropdown is-hoverable">
+        <div class="navbar-item has-dropdown is-hoverable is-link">
             <a class="navbar-link">
                 More
-              </a>
-              <div class="navbar-dropdown">
+            </a>
+            <div class="navbar-dropdown">
                 <a class="navbar-item is-active" href="#Intro">
-                  Intro
+                    Intro
                 </a>
-                <a class="navbar-item is-active" href="#Intro">
-                  Projects
+                <a class="navbar-item is-active" href="#Project">
+                    Projects
                 </a>
-                <a class="navbar-item is-active" href="#Intro">
-                  Contact Info
+                <a class="navbar-item is-active" href="#Contact">
+                    Contact Info
                 </a>
-        </div>
+            </div>
     </header>
 
-    <main id="pics" class="column is-8 is-mobile">
-            <img id="image1" class="cloumn is-one-third" src="https://lh3.googleusercontent.com/usv3r3wZWpx-K4Q1XcYIF95QlOnCsdFx20uaJxnqtv6VPD_q7j8kUF7h_H49N_uLitrQjoeZ-pozsb-CIpxsJAVb3az6YUfKSXcsh8oVfwVNwbc8VuuDhxdf0-u-rP5n0e46amMmcQ=w2400">
-            <img id="image" class="cloumn is-one-third" src="https://lh3.googleusercontent.com/5smSm-UKBZxEe7tA1uICOB9VQaBe9cutaQiRc8Sdn4GqGCWkO1_8LkwKZcvoEEpJ3FBJmAAXClV8ZNfh0Mfh283tF253zjrygHRYdAe8TFhmH7D6Hg1LNoNodD3kWA85uzVChKImrQ=w2400">
-            <img id="image" class="cloumn is-one-third" src="https://lh3.googleusercontent.com/FBFz_ExeZswk27llCxOWJX0VFZII9H37r6-auPr52cVoCoZjv7TajOAbbDZb2UG37hINRJn_gRTfm85hmRsLadCjSkfr5omRatVlCRBMA9EB_RYqQ8z59ZOe-mNeEnM1gNgPWcwlDg=w2400 ">
-        
+    <main id="pics" class=" is-mobile">
+
+        <img id="image1" 
+            src="https://lh3.googleusercontent.com/usv3r3wZWpx-K4Q1XcYIF95QlOnCsdFx20uaJxnqtv6VPD_q7j8kUF7h_H49N_uLitrQjoeZ-pozsb-CIpxsJAVb3az6YUfKSXcsh8oVfwVNwbc8VuuDhxdf0-u-rP5n0e46amMmcQ=w2400">
+
+        <img id="image" 
+            src="https://lh3.googleusercontent.com/5smSm-UKBZxEe7tA1uICOB9VQaBe9cutaQiRc8Sdn4GqGCWkO1_8LkwKZcvoEEpJ3FBJmAAXClV8ZNfh0Mfh283tF253zjrygHRYdAe8TFhmH7D6Hg1LNoNodD3kWA85uzVChKImrQ=w2400">
+
+        <img id="image"
+            src="https://lh3.googleusercontent.com/FBFz_ExeZswk27llCxOWJX0VFZII9H37r6-auPr52cVoCoZjv7TajOAbbDZb2UG37hINRJn_gRTfm85hmRsLadCjSkfr5omRatVlCRBMA9EB_RYqQ8z59ZOe-mNeEnM1gNgPWcwlDg=w2400 ">
+
     </main>
-    <h2 id="Intro"> Introduction </h2>
-        <p id="p2" class="p1">
-            Hi, my name is Caitlin Lindauer. To start of I am an aspiring Web developer and you are visiting my first big web page! This site was made with a lot of time, effort, and some serious back and forth coding.
-            When I used to think about how amazing, fun, and intimidating the whole coding world was and is I never really saw myself actively trying to join that world. After much deliberation here I am.
-        </br>
-            I was born and, (for the most part), raised in southern California. When I was really little my family moved around every couple of months while my dad was in the air force.
-            Seeing as I have no recollection of that period of my life I normaly claim that I was born and raised in California. My parents meet in college, got married about a year later, then that following year I was born.
+    <section class="section is-mobile has-text-info-light has-background-black-ter">
+        <h2 id="Intro" class="subtitle m-6 is-underlined is-bold has-text-info-light"> Introduction </h2>
+        <p id="spacing" class="content is-size-6-mobile is-family-monospace has-text-centered">
+            Hi, my name is Caitlin Lindauer. To start of I am an aspiring Web developer and you are visiting my first
+            big web page! This site was made with a lot of time, effort, and some serious back and forth coding.
+            When I used to think about how amazing, fun, and intimidating the whole coding world was and is I never
+            really saw myself actively trying to join that world. After much deliberation here I am.
+        </p>    </br>
+            <p id="spacing" class="content is-size-6-mobile is-family-monospace has-text-centered">
+            I was born and, (for the most part), raised in southern California. When I was really little my family moved
+            around every couple of months while my dad was in the air force.
+            Seeing as I have no recollection of that period of my life I normaly claim that I was born and raised in
+            California. My parents meet in college, got married about a year later, then that following year I was born.
             In my family I have five younger siblings with the youngest being eleven years younger than me.
-        </br>
-            Outside of my endevor to learn the vast world of code I have a large aray of things I dable in. For starters, I love just about any form of art. From playing the guitar to sketching anime characters,
-            writing intense not so short stories that I can never really complete to baking. I love playing sports but only as a fun thing with friends and family. Recently I have been getting more and more into 
-            a variety of board games. Which hobbies I am currently into doing can change back and forth, but I never stop loving those activities.
-        </p>
+            </p></br>
+            <p id="spacing" class="content is-size-6-mobile is-family-monospace has-text-centered">
+            Outside of my endevor to learn the vast world of code I have a large aray of things I dable in. For
+            starters, I love just about any form of art. From playing the guitar to sketching anime characters,
+            writing intense not so short stories that I can never really complete to baking. I love playing sports but
+            only as a fun thing with friends and family. Recently I have been getting more and more into
+            a variety of board games. Which hobbies I am currently into doing can change back and forth, but I never
+            stop loving those activities.
+            </p>
+    </section>
 
-    <div>
-    <h2 id="Intro"> Projects </h2>
-        <figure>
-            <button id="line" class="image is-rounded"><a  href="https://jvbridge.github.io/sbs-email-verification/"><img class="a3" src="https://lh3.googleusercontent.com/1JjIKvmwapI-l_ymG2BQiGc0fZAMPbLymIGz0A3rP7pZyLIPSKlpW72-EKQpefGGmiTb0YIB1LJchQGKQYJNWxTvALe4QTrQesFLaS6C7uAcD1WCAZd9XwZqInYuQ96ARgJDh2l5_Q=w2400"></a></button>
-            <figcaption>First Group Project</figcaption>
-          </figure>
-          <figure>
-            <button id="line"><a href="https://cl2731.github.io/Mini_start/"><img class="a3" src="https://lh3.googleusercontent.com/3VWO_THwNmo2_oEn_ceFc6-W88C7flv9wWBjCUvQRABvIAsFY4r62JY3JskMSLZsT3HzIPm_Uti9irnOrIX3vHvLp8RF3FlK3t8XvcIH629e7qZrNnqTqgtURp0MyJMPBB04nabTtg=w2400"></a></button>
-              <figcaption>First Website</figcaption>
-          </figure>
-    </div>
+    <section class="section is-medium">
+        <div>
+            <h2 id="Project" class="subtitle m-5 is-underlined is-bold"> Projects </h2>
+            <figure>
+                <button id="line" class="container m-5"><a href="https://jvbridge.github.io/sbs-email-verification/"><img class="has-ratio"
+                            width="700" height="280" 
+                            src="https://lh3.googleusercontent.com/1JjIKvmwapI-l_ymG2BQiGc0fZAMPbLymIGz0A3rP7pZyLIPSKlpW72-EKQpefGGmiTb0YIB1LJchQGKQYJNWxTvALe4QTrQesFLaS6C7uAcD1WCAZd9XwZqInYuQ96ARgJDh2l5_Q=w2400">
+                <figcaption class="content is-size-6-mobile is-family-monospace">First Group Project</figcaption></a></button>
+            </figure></br>
+            <figure>
+                <button id="line" class="container m-5"><a href="https://cl2731.github.io/Mini_start/"><img class="has-ratio"
+                    width="700" height="280"
+                            src="https://lh3.googleusercontent.com/3VWO_THwNmo2_oEn_ceFc6-W88C7flv9wWBjCUvQRABvIAsFY4r62JY3JskMSLZsT3HzIPm_Uti9irnOrIX3vHvLp8RF3FlK3t8XvcIH629e7qZrNnqTqgtURp0MyJMPBB04nabTtg=w2400">
+                <figcaption class="content is-size-6-mobile is-family-monospace">First Website</figcaption></a></button>
+            </figure>
+        </div>
+    </section>
 
-    <h2 id="Intro"> Contact Information </h2>
-    <p>
+    <h2 id="Contact" class="subtitle m-5 is-underlined is-bold"> Contact Information </h2>
+    <p class="content is-size-6-mobile is-family-monospace has-text-centered">
         Check out my Linkedin <a href="https://www.linkedin.com/feed/">here</a>.
-    For more of my projects visit my github <a href="https://github.com/CL2731">here</a>.
-    To best get in contact with me email me at <a href="mailto:clilos018@gmail.com" subject="message from your website">this address</a> and if link is not working, it is <em><strong>clilos018@gmail.com</strong></em>.
+        For more of my projects visit my github <a href="https://github.com/CL2731">here</a>.
+        To best get in contact with me, email me at <a href="mailto:clilos018@gmail.com"
+            subject="message from your website">this address</a> and if link is not working, it is
+        <em><strong>clilos018@gmail.com</strong></em>.
     </p>
 </body>
-<footer> Thanks for stopping by! ©Caitlin Lindauer </footer>
+<footer class="has-background-link has-text-centered has-text-white"> Thanks for stopping by! ©Caitlin Lindauer </footer>
+
 </html>
