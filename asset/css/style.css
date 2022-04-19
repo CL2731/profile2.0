@@ -1,0 +1,16 @@
+*{
+
+}
+
+#image1 {
+    margin: 5px 5px 5px 5px;
+    max-width: 200px;
+    max-height: 350px;
+    border-radius: 8px;
+}
+
+#image {
+    margin: 5px 5px 5px 5px;
+    height: 350px;
+    border-radius: 8px;
+}
