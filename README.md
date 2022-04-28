@@ -20,3 +20,6 @@ https://cl2731.github.io/profile2.0/
 
 ### Created by
 © Caitlin Lindauer
+
+### License
+##### -MIT
